@@ -1,0 +1,5 @@
+import math
+radius=input("input the radius of the circle:")
+r=float(radius)
+a=math.pi*(r**2)
+print("The radius of the circle with radius %s is: %.16f"%(radius,a))
