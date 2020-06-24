@@ -1,0 +1,13 @@
+f_name=input("Input the file name:")
+pos=0
+
+for i in range(len(f_name)):
+    if f_name[i]=='.':
+       pos=i
+    
+str=f_name[pos+1: ]
+
+if str=="py":
+  print("The extension of the file is:'python'")
+else:    
+  print("The extension of the file is:'%s'"%str)
